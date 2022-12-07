@@ -16,6 +16,11 @@ openModalImg('.buttons__img5', '.modal_img[data-modal="_img5"]')
 openModalImg('.buttons__img6', '.modal_img[data-modal="_img6"]')
 openModalImg('.buttons__img7', '.modal_img[data-modal="_img7"]')
 openModalImg('.buttons__img8', '.modal_img[data-modal="_img8"]')
+openModalImg('.buttons__img9', '.modal_img[data-modal="_img9"]')
+openModalImg('.buttons__img10', '.modal_img[data-modal="_img10"]')
+openModalImg('.buttons__img11', '.modal_img[data-modal="_img11"]')
+openModalImg('.buttons__img12', '.modal_img[data-modal="_img12"]')
+openModalImg('.buttons__img13', '.modal_img[data-modal="_img13"]')
 
 const closeModalImg = () => { // объявляем функцию закрытия модального окна
   const modals = document.querySelectorAll('.modal_img') // ищем все модальные окна
