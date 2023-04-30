@@ -10,7 +10,7 @@
   }
 }
 
-/* Основное */
+/* Основное модальное */
 .modal {
   visibility: hidden;
   opacity: 0;
@@ -33,7 +33,7 @@
 }
 .modal_content {
   width: 600px;
-  background: linear-gradient(#bdddfc, white, #bee6cf);
+  background-color: whitesmoke;
   color: black;
   margin: 86px auto;
   border: 1px solid #222;
@@ -50,7 +50,7 @@
 .modal_close {
   flex: 10%;
   cursor: pointer;
-  background-color: #2e4153;
+  background-color: #11171d;
   color: white;
   font-size: 24px;
   margin-top: -20px;
